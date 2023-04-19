@@ -1,0 +1,85 @@
+<head>
+    <style>
+        body{
+            background-color:rgba(238, 245, 251, 0.901);
+        }
+        .login{
+            background-color:white;
+            color:black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 26vw;
+            height: 36vh;
+            position: absolute;
+            left: calc(50% - 16.5vw);
+            top: calc(50% - 16.5vh);
+            /* margin: auto; */
+            padding: 2rem;
+            box-shadow: 1rem 1rem 3rem black;
+        }
+    
+        .login input{
+            width: 100%;
+        }
+        .login input[type=checkbox]{
+            width: auto;
+            width: 15px;
+            height: 15px;
+            padding: 0;
+            margin: 0;
+            vertical-align: bottom;
+            position: relative;
+            top: -1px;
+        }
+        .login label input {
+            display: inline-block;
+        }
+        label{
+            margin: 1rem;
+            display: block;
+        }
+        .login button{
+            background-color: black;
+            position: absolute;
+            left: 4rem;
+            right: 4rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+            color: white;
+        }
+        .login .title{
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+            <div class="login">
+                <div 
+                class="title">LOGIN
+
+                </div>
+                <form method="post">
+     
+                        <label>
+                            Username:
+                            <input placeholder="Username">
+                        </label>
+            
+                        <label>
+                            Password:
+                            <input placeholder="Password">
+                        </label>
+            
+                        <label>
+                            <input type="checkbox"><span>Remember Me</span>
+                        </label>
+            
+            
+                        <button type="submit">Log In</button>
+                       
+                        
+                </form>
+            </div>
+</body>
