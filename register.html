@@ -10,35 +10,24 @@
 </head>
 
 <style>
-    body { 
-        background-color:rgba(238, 245, 251, 0.901);
-    }
-    .register { 
-    
-        background-color: white;
+
+    .register {         
         color:black;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        border: black solid 1px;
-        /* margin:10rem */
-        border-radius: 1rem;
         padding: 2rem;
-        box-shadow: 1rem 1rem 3rem black;
-        
-
-    }
-
-        .register .title{
-            text-align: center;
-            font-weight: bold;
-            font-size: 1.5rem;
-            
         }
-    	
+
         .register button { 
             background-color: black;
             color: white;
             border-radius: 0.5rem;
         }
+        .container {
+        margin:auto;
+        max-width: 500;
+        margin-top: 50px;
+
+    }
 
 </style>    
 
@@ -74,45 +63,47 @@
         </div>
     </nav>
 
-    <div class="register"
-      <div class="row align-items-center" style="height: 60vh;">
-      <div class="mx-auto col-10 col-md-8 col-lg-6">
-          <form action="index.html">
-            <div class="title text-center">Register</div>
+    <div class="register">
+        <div class="container">
+                <form action="index.html">
+                    <div class="title text-center"><h1>Register</h1></div>
 
-            <div class="form-group">
-              <label class="form-label" for="Username">Create a Username:</label>
-              <input type="text" class="form-control" id="Username" placeholder="Create a Username">
-            </div>
+                    <div class="form-group">
+                        <label class="form-label" for="Username">Create a Username:</label>
+                        <input type="text" class="form-control" id="Username" placeholder="Create a Username">
+                    </div>
 
-            <div class="form-group">
-              <label class="form-label" for="Password">Password:</label>
-              <input type="text" class="form-control" id="password" placeholder="Password">
-            </div>
+                    <div class="form-group">
+                        <label class="form-label" for="Password">Password:</label>
+                        <input type="text" class="form-control" id="password" placeholder="Password">
+                    </div>
 
-            <div class="form-group">
-              <label class="form-label" for="Password">Confirm Password:</label>
-              <input type="text" class="form-control" id="password" placeholder="Confirm Password">
-            </div>
+                    <div class="form-group">
+                        <label class="form-label" for="Password">Confirm Password:</label>
+                        <input type="text" class="form-control" id="password" placeholder="Confirm Password">
+                    </div>
 
-               How did you hear about us?
+                    How did you hear about us?
 
-            <div class="form-check">
-              <label class="form-check-label" for="Newsletter">Mail & Newsletter</label>
-              <input type="radio" class="form-check-input">
-            </div>
+                    <div class="form-check">
+                    <label class="form-check-label" for="Newsletter">Mail & Newsletter</label>
+                    <input type="radio" class="form-check-input">
+                    </div>
 
-            <div class="form-check">
-              <label class="form-check-label" for="SocialMedia">Social Media</label>
-              <input type="radio" class="form-check-input">
-            </div>
+                    <div class="form-check">
+                    <label class="form-check-label" for="SocialMedia">Social Media</label>
+                    <input type="radio" class="form-check-input">
+                    </div>
 
-            <div class="form-check">
-              <label class="form-check-label" for="Other">Other</label>
-              <input type="radio" class="form-check-input">
-            </div>
+                    <div class="form-check">
+                    <label class="form-check-label" for="Other">Other</label>
+                    <input type="radio" class="form-check-input">
+                    </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
 </body>
